@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+  *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Ubuntu', sans-serif;
+  
+}
+main{
+  background-color: azure;
+}
+nav{
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 20px;
+  transition: all 0.4s ease;
+  background: #3586ff;
+}
+nav .nav-content{
+  height: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav .logo h1{
+  font-weight: 500;
+  font-size: 35px;
+  color: #e4e4e4;
+}
+nav.sticky .logo a{
+  color: #fff;
+}
+.nav-content .nav-links{
+  display: flex;
+}
+.nav-content .nav-links li{
+  list-style: none;
+  margin: 0 8px;
+}
+ .nav-links li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 10px 4px;
+  transition: all 0.3s ease;
+  opacity: 0.8;
+}
+ .nav-links li a:hover{
+   opacity: 1;
+ }
+
+h2{
+  font-size: 30px;
+  color: #4070f4;
+}
+
+
+.home{
+    height: 90vh;
+    font-family: 'Ubuntu', sans-serif;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  justify-content: space-evenly;
+    align-items: center;
+}
+.second-home {
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+
+section.home-section{
+  display: flex;
+}
+span{
+
+  font-size: 15px;
+    font-style: italic;
+    font-family: cursive;
+    color: cadetblue;
+}
+.name{
+    font-size: 30px;
+    margin: 60px 50px 30px;
+}
+
+.home-img-container{
+    position: relative;
+    display: flex;
+    /* align-content: center; */
+    justify-content: center;
+}
+
+.home-info{
+    color: #fff;
+    opacity: 0.6;
+    font-size: 20px;
+    line-height: 40px;
+}
+
+.home-img{
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.download-cv-btn{
+    margin: 20px 10px 20px;
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: #fff;
+    border: none;
+    font-size: 16px;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: .5s;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.download-cv-btn:hover{
+    background: #000;
+}
+
+.about-box, .contact-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-head, .skill-head {
+    border-radius: 5px;
+    padding: 10px;
+    background: #eee;
+    box-shadow: 10px 10px 5px lightblue;
+    margin: 30px auto 30px;
+}
+
+.about-content {
+  height: 50%;
+  width: 50%;
+  padding: 20px;
+  font-size: 20px;
+  border: 3px;
+  border-radius: 14px;
+  border-color: #6964643b;
+  border-style: groove;
+}
+.skill-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.first-row , .second-row{
+  display: flex;
+
+}
+.card{
+  margin: 10px 50px 25px;
+}
+.row{
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.footer {
+  position: relative;
+  width: 100%;
+  background: #3586ff;
+  min-height: 100px;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.social-icon,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+  flex-wrap: wrap;
+}
+
+.social-icon__item,
+.menu__item {
+  list-style: none;
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.menu__link{
+  font-size: 1.2rem;
+  color: #fff;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75;
+  font-weight: 300;
+}
+
+.menu__link:hover {
+  opacity: 1;
+}
+
+.footer p {
+  color: #fff;
+  margin: 15px 0 10px 0;
+  font-size: 1rem;
+  font-weight: 300;
+}
+.inner-box{
+  display: flex;
+  /* justify-content: center; */
+    align-items: center;
+}
+.about-img{
+  margin: 60px;
+  border-radius: 15px;
+  overflow: hidden;
+}
+ .img-about{
+  height: 70vh;
+ }
+ .contact-head{
+  border-radius: 5px;
+  background: #eee;
+  box-shadow: 10px 10px 5px lightblue;
+  margin: 30px auto 30px;
+  width: fit-content;
+ }
